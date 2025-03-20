@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon -e ts --exec ts-node src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,14 @@
   "homepage": "https://github.com/smi4th/bug-free-broccoli#readme",
   "devDependencies": {
     "@types/express": "^5.0.1",
+    "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "pg": "^8.14.1",
+    "typeorm": "^0.3.21"
   }
 }
