@@ -1,0 +1,29 @@
+{
+  "name": "bug-free-broccoli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smi4th/bug-free-broccoli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/smi4th/bug-free-broccoli/issues"
+  },
+  "homepage": "https://github.com/smi4th/bug-free-broccoli#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
